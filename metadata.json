@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "com.talk2pc.kwin.bridge",
+        "Name": "Talk2PC Bridge",
+        "Description": "Streams the real cursor position to the Talk2PC desktop app (com.lycheenow.talk2pcdesktop.KWinBridge) so phone-driven input overlays follow the pointer. Runs passively; no window or file access.",
+        "Description[zh_CN]": "把真实光标位置流式推送给 Talk2PC 桌面应用（com.lycheenow.talk2pcdesktop.KWinBridge），让手机驱动的输入悬浮窗跟随指针。被动运行，不访问窗口内容或文件。",
+        "Version": "1.0",
+        "License": "GPL-2.0-or-later",
+        "Website": "https://github.com/panjianghao/talk2pc-kwin-bridge",
+        "Authors": [
+            {
+                "Name": "Talk2PC"
+            }
+        ]
+    },
+    "KPackageStructure": "KWin/Script",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
